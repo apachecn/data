@@ -1,0 +1,52 @@
+site_name: ApacheCN
+site_url: http://ailearning.apachecn.org
+site_description: ApacheCN 专注于优秀项目维护的开源组织
+site_author: ApacheCN Team
+
+repo_url: https://github.com/apachecn/AiLearning
+repo_name: AiLearning
+
+use_directory_urls: true
+nav:
+- 第1章_基础知识 : ml/1.MLFoundation.md
+- 第2章_K近邻算法 : ml/2.KNN.md
+- 第3章_决策树算法 : ml/3.DecisionTree.md
+- 第4章_朴素贝叶斯 : ml/4.NaiveBayesian.md
+- 第5章_逻辑回归 : ml/5.Logistic.md
+- 第6章_支持向量机 : ml/6.SVM.md
+- 第7章_集成方法 : ml/7.Ensemble.md
+- 第8章_回归 : ml/8.Regression.md
+- 第9章_树回归 : ml/9.TreeRegression.md
+- 第10章_KMeans聚类 : ml/10.KMeans.md
+- 第11章_Apriori算法 : ml/11.Apriori.md
+- 第12章_FP-growth算法 : ml/12.FP-growth.md
+- 第13章_PCA降维 : ml/13.PCA.md
+- 第14章_SVD简化数据 : ml/14.SVD.md
+- 第15章_大数据与MapReduce : ml/15.BigData_MapReduce.md
+- 第16章_推荐系统 : ml/16.RecommendedSystem.md
+- '为何录制教学版视频': 'why-to-record-study-ml-video.md'
+- '加入我们': 'join-us.md'
+
+theme:
+  name: mkdocs
+  custom_dir: 'custom_theme/'
+  
+  # 404 page
+  static_templates:
+    - 404.html
+  
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  
+  # Default values, taken from mkdocs_theme.yml
+  language: 'zh'
+  feature:
+    tabs: true
+  palette:
+    primary: 'light blue'
+    accent: 'light blue'
+  font: false
+  favicon: assets/images/favicon.png
+  logo: 
+    icon: "\uE80C"
