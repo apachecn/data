@@ -8,6 +8,7 @@ repo_name: AiLearning
 
 use_directory_urls: true
 nav:
+- 机器学习实战 : index.md
 - 第1章_基础知识 : ml/1.MLFoundation.md
 - 第2章_K近邻算法 : ml/2.KNN.md
 - 第3章_决策树算法 : ml/3.DecisionTree.md
@@ -42,7 +43,7 @@ theme:
   # Default values, taken from mkdocs_theme.yml
   language: 'zh'
   feature:
-    tabs: true
+    tabs: false
   palette:
     primary: 'light blue'
     accent: 'light blue'
