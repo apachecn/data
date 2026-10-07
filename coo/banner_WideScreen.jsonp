@@ -1,0 +1,15 @@
+cooCallbackWideScreen({
+    "html": `
+        <div class="marquee" onmouseover="stopMarquee()" onmouseout="startMarquee()">
+        <marquee behavior="scroll" direction="left" id="marquee">
+            全网热门新闻
+            <a target="_blank" href="https://hot.ailake.cn" style="color: red;">
+            <span class="twemoji mastodon">
+                <img src="https://data.apachecn.org/img/icon/ROBOT_TXT.svg" alt="AILake - al.ibooker.org.cn">
+            </span>
+            <strong>AILake - hot.ailake.cn</strong>
+            </a>
+        </marquee>
+        </div>
+    `
+});

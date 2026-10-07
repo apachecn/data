@@ -1,14 +1,15 @@
-# iBooker 静态资源库
+# ApacheCN - 静态资源库
 
-* 组织logo
-* 关于我们
-* 学习路线
-* 技术技能
-* 特别赞助
+* 书籍
+* 文件
+* 图片
+* 视频
 
-> 数据下载地址
+URL: <https://data.apachecn.org/路径名>
 
-https://github.com/apachecn/data/issues/3
+案例: <https://data.apachecn.org/images/logo/logo.webp>
+
+数据下载说明: <https://github.com/apachecn/data/issues/3>
 
 ---
 

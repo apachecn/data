@@ -1,0 +1,9 @@
+cooCallbackWideScreen_1({
+    "html": `
+        <div style="display: flex; justify-content: center; align-items: center; max-width: 1920px; max-height: 250px;">
+            <a href="https://gz360.tv/?c=GZ0441">
+                <img src="https://data.dafeiyang.cn/coo/guazi/guazi_1860_160.webp" alt="Ad" style="width: 100%;">
+            </a>
+        </div>
+    `
+});
